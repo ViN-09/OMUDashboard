@@ -1,0 +1,15 @@
+#bodyHandler {
+    width: 100vw;         /* vw = 100% dari lebar viewport */
+    height: 100vh;        /* vh = 100% dari tinggi viewport */
+    display: flex;
+    flex-direction: row;
+}
+
+main{
+    position: relative;
+    width: 100%;
+}
+
+main h1{
+    text-align: center;
+}
