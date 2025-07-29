@@ -5,7 +5,7 @@ import './Dashboard.css';
 function Dashboard() {
     return (
         <div id="ttcdashboard">
-            <Title text="Selamat datang di Dashboard!" />
+            <Title text="DASHBOARD" />
             <Loading />
         </div>
     )

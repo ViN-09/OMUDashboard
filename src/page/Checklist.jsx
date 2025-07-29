@@ -5,7 +5,7 @@ import './Checklist.css';
 function Checklist() {
     return (
         <div id="ttcchecklist">
-            <Title text="Checklist" />
+            <Title text="CHECKLIST" />
             <Loading />
         </div>
     )

@@ -5,7 +5,7 @@ import './Exsumary.css';
 function Exsumary() {
     return (
         <div id="ttcexumary">
-            <Title text="EX-SUMMARY" />
+            <Title text="EXECUTIVE SUMMARY" />
             <Loading />
         </div>
     )
