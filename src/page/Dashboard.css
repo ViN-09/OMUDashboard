@@ -2,4 +2,56 @@
     width: 100%;
     height: 100%;
         padding:5px;
+    
 }
+
+#DashboardActivityStatus{
+    display: grid;
+    grid-template-columns: repeat(3,1fr); /* <- ini penting */
+    gap : 10px;
+    height: max-content;
+}
+
+#body{
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    gap :10px;
+}
+
+#bodyLeft{
+    display: grid;
+    align-content: baseline;
+    gap: 5px;
+    grid-template-rows: 18% 81%;
+    height: 100%;
+}
+
+#DashboardWatherStaff{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap :10px;
+}
+#DashboardWatherStaff > div:nth-child(2) {
+  grid-column: span 2
+}
+
+
+#bodyRight{
+    display: grid;
+    gap :10px;
+    max-height: 92vh;
+    overflow: auto;
+}
+#bodyRight::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
+
+#DashboardActivityVendor{
+    display: grid;
+    gap :10px;
+}
+
+.box-border{
+    height: 100%;
+}
+

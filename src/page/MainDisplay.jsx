@@ -51,6 +51,7 @@ function MainDisplay() {
       <Sidebar />
       <main>
         {renderComponent(activeComponent)}
+        
       </main>
 
     </div>

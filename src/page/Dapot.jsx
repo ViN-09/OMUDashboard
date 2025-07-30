@@ -1,5 +1,5 @@
 import React from 'react';
-import Title from '../component/Title.jsx';
+import { Title, Subtitle } from '../component/Title.jsx';
 import Loading from '../component/Loading.jsx';
 import './Dapot.css';
 function Dapot() {

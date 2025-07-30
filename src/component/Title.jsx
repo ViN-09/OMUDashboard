@@ -1,7 +1,9 @@
 import React from 'react';
 
-function Title({ text }) {
+export function Title({ text }) {
   return <h1>{text}</h1>;
 }
 
-export default Title;
+export function Subtitle({ text }) { 
+  return <h4>{text}</h4>; 
+}
