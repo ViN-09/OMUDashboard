@@ -6,6 +6,7 @@ import Checklist from './page/Checklist.jsx';
 import Exsumary from './page/Exsumary.jsx';
 import Dapot from './page/Dapot.jsx';
 import './MainDisplay.css';
+import Test from './Test.jsx';
 
 function MainDisplay() {
   const [activeComponent, setActiveComponent] = useState('dashboard');
@@ -55,7 +56,6 @@ function MainDisplay() {
       <main>
         {renderComponent(activeComponent)}
       </main>
-
     </div>
   );
 }

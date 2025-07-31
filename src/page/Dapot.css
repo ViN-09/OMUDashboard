@@ -7,6 +7,15 @@
     gap: 10px;
 }
 
+#bodyttcdapot{
+  max-height: 100%;
+  overflow: auto;
+  border-top: 1px solid rgb(212, 212, 212);
+  border-bottom: 1px solid rgb(212, 212, 212);
+
+  border-radius: 6px;
+}
+
 @keyframes submenuFadeIn {
   from {
     opacity: 0;

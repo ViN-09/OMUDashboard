@@ -5,7 +5,7 @@ export function CardTable({ title, columns = [], data = [] }) {
   return (
     <Card className="shadow-sm mb-4">
       <Card.Body>
-        <h6 className="text-primary fw-bold mb-3">{title}</h6>
+        <h6 className="text-primary fw-bold mb-3">{title.toUpperCase()}</h6>
         <div className="table-responsive">
           <Table bordered hover size="sm" className="mb-0">
             <thead className="table-light">
