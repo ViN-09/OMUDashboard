@@ -21,9 +21,12 @@
 #bodyLeft{
     display: grid;
     align-content: baseline;
-    gap: 5px;
-    grid-template-rows: 18% 81%;
+    gap:10px;
+    grid-template-rows: auto 1fr;
     height: 100%;
+}
+#bodyRight .card-body .box-border{
+    padding-top: 40px;
 }
 
 #DashboardWatherStaff{
@@ -41,6 +44,9 @@
     gap :10px;
     max-height: 92vh;
     overflow: auto;
+    border-radius: 10px;
+    border-top: 1px solid rgb(223, 221, 221);
+    border-bottom: 1px solid rgb(201, 199, 199);
 }
 #bodyRight::-webkit-scrollbar {
   display: none;             /* Chrome, Safari, Opera */

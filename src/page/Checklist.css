@@ -3,3 +3,14 @@
     height: 100%;
     padding: 5px;
 }
+
+#bodyttcchecklist{
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(4,1fr);
+}
+
+
+
+
+

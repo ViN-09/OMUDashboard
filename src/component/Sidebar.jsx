@@ -13,13 +13,13 @@ function Sidebar() {
   };
 
   return (
-    <div className="d-flex flex-column flex-shrink-0 bg-light" style={{ width: '4.5rem' }}>
+    <div className="d-flex flex-column flex-shrink-0 bg-light" id="mainSidebar">
       <a
         href="/"
         className="d-block p-3 link-dark text-decoration-none"
         title="Icon-only"
       >
-        <img src={telkomselLogo} alt="Telkomsel" style={{ width: '40px', height: '32px' }} />
+        <img src={telkomselLogo} alt="Telkomsel" style={{ width: '40px', height: 'auto' }} />
         <span className="visually-hidden">Icon-only</span>
       </a>
       <ul className="nav nav-pills nav-flush flex-column mb-auto text-center">
@@ -30,7 +30,7 @@ function Sidebar() {
             className={`nav-link py-3 border-bottom ${activeMenu === 'dashboard' ? 'active' : ''}`}
             title="Dashboard"
           >
-            <i className="bi bi-speedometer2" style={{ fontSize: '1.5rem' }}></i>
+            <i className="bi bi-speedometer2"></i>
           </a>
         </li>
         <li data-id="list-activity">
@@ -41,7 +41,7 @@ function Sidebar() {
             aria-current={activeMenu === 'activitylist' ? 'page' : undefined}
             title="Activiy-List"
           >
-            <i className="bi bi-card-checklist" style={{ fontSize: '1.5rem' }}></i>
+            <i className="bi bi-card-checklist"></i>
           </a>
         </li>
         <li data-id="checklist">
@@ -51,7 +51,7 @@ function Sidebar() {
             className={`nav-link py-3 border-bottom ${activeMenu === 'checklist' ? 'active' : ''}`}
             title="Checklist"
           >
-            <i className="bi bi-check-square" style={{ fontSize: '1.5rem' }}></i>
+            <i className="bi bi-check-square"></i>
           </a>
         </li>
         <li data-id="executive-summary">
@@ -61,7 +61,7 @@ function Sidebar() {
             className={`nav-link py-3 border-bottom ${activeMenu === 'executive-summary' ? 'active' : ''}`}
             title="Executive Summary"
           >
-            <i className="bi bi-graph-up" style={{ fontSize: '1.5rem' }}></i>
+            <i className="bi bi-graph-up"></i>
           </a>
         </li>
         <li data-id="data-potensi">
@@ -71,7 +71,7 @@ function Sidebar() {
             className={`nav-link py-3 border-bottom ${activeMenu === 'orders' ? 'active' : ''}`}
             title="Orders"
           >
-            <i className="bi bi-table" style={{ fontSize: '1.5rem' }}></i>
+            <i className="bi bi-table"></i>
           </a>
         </li>
         <li>
@@ -81,7 +81,7 @@ function Sidebar() {
             className={`nav-link py-3 border-bottom ${activeMenu === 'products' ? 'active' : ''}`}
             title="Products"
           >
-            <i className="bi bi-grid" style={{ fontSize: '1.5rem' }}></i>
+            <i className="bi bi-grid"></i>
           </a>
         </li>
         <li>
@@ -91,11 +91,11 @@ function Sidebar() {
             className={`nav-link py-3 border-bottom ${activeMenu === 'customers' ? 'active' : ''}`}
             title="Customers"
           >
-            <i className="bi bi-people-circle" style={{ fontSize: '1.5rem' }}></i>
+            <i className="bi bi-people-circle"></i>
           </a>
         </li>
       </ul>
-       <Dropdown className="border-top">
+      <Dropdown className="border-top">
         <Dropdown.Toggle
           variant="light"
           id="dropdownUser3"

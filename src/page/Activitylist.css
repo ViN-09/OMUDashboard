@@ -1,5 +1,21 @@
-#ttcactivity{
+#ttcactivity {
     width: 100%;
-    height: 100%;
-    padding:5px;
+    max-height: 100%;
+    padding: 5px;
+    overflow: auto;
+}
+
+#ttcactivity::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
+}
+
+#bodyttcactivity {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:5px
+}
+
+#sector{
+    display: grid;
+    gap: 5px;
 }

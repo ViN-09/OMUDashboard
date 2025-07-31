@@ -35,15 +35,15 @@
   display: flex;
   align-items: center;
   gap: 20px;
-  font-size: 30px;
+  font-size:40px;
 }
 
 .status-item i {
-  font-size: 30px !important;  /* pakai !important supaya pasti diutamakan */
+  font-size: 40px !important;  /* pakai !important supaya pasti diutamakan */
 }
 
 .status-separator{
-    font-size:30px;
+    font-size:35px;
 }
 
 
@@ -74,9 +74,24 @@
 
 .box-border ul li {
   margin-bottom: 0; /* hilangkan margin bawah biar space-between jelas */
+  font-size: 20px;
 }
 
 li strong {
   display: block;
   margin-bottom: 0.25rem; /* spasi kecil di bawah label */
 }
+
+.card-submenu-hover {
+  border-left-color: #0d6efd !important;
+  transition: background-color 0.3s ease, border-left-color 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+.card-submenu-hover:hover {
+  background-color: rgba(13, 110, 253, 0.05) !important;
+  border-left-color: #0d6dfd9a !important;
+  box-shadow: 0 0 0 3px rgba(13, 109, 253, 0.959);
+}
+
+

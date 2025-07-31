@@ -1,3 +1,13 @@
 li{
     margin: 5px;
+
+}
+
+#mainSidebar{
+ width: max-content;
+ .nav{
+        li{
+        font-size: 15px;
+}
+ }
 }
