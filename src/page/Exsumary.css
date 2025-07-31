@@ -2,4 +2,17 @@
     width: 100%;
     height: 100%;
         padding:5px;
+    display: grid;
+    grid-template-rows: auto 1fr;
+}
+
+#bodyttcexumary{
+ overflow: auto;
+ display: grid;
+ gap:10px;
+ grid-template-columns: repeat(1,1fr);
+}
+
+#bodyttcexumary::-webkit-scrollbar {
+  display: none;             /* Chrome, Safari, Opera */
 }
